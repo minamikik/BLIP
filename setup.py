@@ -5,11 +5,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="blip",
-    py_modules=["blip"],
     version="1.0",
-    description="",
+    description="BLIP: A Pretrained Vision-and-Language Model for Image Captioning",
+    long_description=open('README.md').read(),
     author="salesforce",
-    packages=find_packages(exclude=["tests*"]),
+    packages=find_packages(),
     install_requires=[
         str(r)
         for r in pkg_resources.parse_requirements(
