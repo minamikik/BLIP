@@ -6,6 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name="blip",
     version="1.0",
+    url='https://github.com/minamikik/BLIP',
     description="BLIP: A Pretrained Vision-and-Language Model for Image Captioning",
     long_description=open('README.md').read(),
     author="salesforce",
